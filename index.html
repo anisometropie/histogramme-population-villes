@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Communes</title>
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.11/lodash.min.js"></script>
+
+</head>
+<body>
+  <div id="container">
+    <div id="chart"></div>
+    <div>
+      <input type="range" min="1" max="100" value="50" onchange="handleCodeChange(this.value)">
+      <span id="codeDepartement">50</span>
+    </div>
+  </div>
+  <script src="src/app.js"></script>
+</body>
+</html>
